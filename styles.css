@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color:#7c8569;
+    padding: 20px 100px 0 50px;
+}
+
+.part1 {
+    
+    text-align: center;
+    padding: 5px;
+    border: solid #0b0b0b;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.foto-perfil {
+    
+    display: inline-block;
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+    border: 2px solid #0b0b0b;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.foto-perfil:hover {
+    transform: translateY(-25px);
+}
+
+h2,
+h3 {
+    text-align: center;
+    color:black;
+    font-size: 25px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.apresentacao,
+.objetivo,
+.start-end,
+.university {
+    text-align: center;
+    color: rgb(33, 29, 29);
+    font-weight: bold;
+}
+
+.contato {
+    color: #0b0b0b;
+    font-weight: bold;
+    text-align: left;
+}
+
+.ctt {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+    color : #0b0b0b
+}
+
+.botao {
+    background-color: #a4ab80;
+    margin: 3px;
+    font-weight: bolder;
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 3px;
+    border: 2px solid #0b0b0b;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.botao:hover {
+    transform: translateY(-8px);
+}
+
+.copy {
+    color: #fff;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Playfair Display' , sans-serif;
+}
+.quem{
+    text-align: center;
+}
+.div-contato{
+    margin: 2px;
+    justify-content: left;
+    text-align: left;
+    width: 200px;
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1A2A3A;
+    padding: 30px 100px 0 40px;
+}
+.botao {
+    background-color: hsl(199, 79%, 76%);
+    margin: 3px;
+    font-weight: bolder;
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 3px;
+    transition: transform 0.5s;
+    cursor: pointer;
+    border: 2px solid #0b0b0b;
+}
+
+.botao:hover {
+    transform: translateY(-8px);
+}
