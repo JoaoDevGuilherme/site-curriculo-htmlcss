@@ -4,72 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu currículo</title>
+    <title>Portfólio - João Guilherme</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Simplificado -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="container">
-        <header>
-            <div class="logo">
-            <h1 class="nome1"><span>João Guilherme Lima Silva Dias</span></h1>
-            <p class="intro">Estudante / Cursando Análise e Desenvolvimento de Sistemas</p>
-            </div>
-        </header>
-
-        <section id="sobre">
-            <div class="quem">
-            <h2 class="quem">Quem sou eu?</h2>
-            <img src="img/jg2jjjjjj.jpeg" alt="João Guilherme - Foto 1" class="foto-perfil">
-            <img src="img/jg1 (2).jpeg" alt="João Guilherme - Foto 2" class="foto-perfil">
-            <img src="img/WhatsApp Image 2025-05-28 at 11.52.20.jpeg" alt="João Guilherme - Foto 4" class="foto-perfil">
-            </div>
-            <p class="apresentacao">Meu nome é João Guilherme, tenho 21 anos e sou estudante de programação.</p>
-        </section>
-
-        <section id="objetivo">
-            <div class="div-objetivo">
-            <h2 class="meta">Objetivo:</h2>
-            <p class="objetivo">Busco me consolidar como desenvolvedor Front-End, contribuindo com minhas habilidades em ambientes que valorizem meu trabalho e ofereçam oportunidades de crescimento contínuo.</p>
-            </div>
-        </section>
-
-        <section id="educacao">
-            <h2 class="educacao">Educação:</h2>
-            <h3 class="university">Universidade Católica de Salvador</h3>
-            <p class="start-end">Data de início - Agosto de 2023 / Data de término - Agosto de 2026</p>
-        </section>
-
-        <section id="contato">
-
-            <div class="div-contato">
-            <h2 class="contato">Contato</h2>
-            <ul class="ctt">
-                <li><a href="mailto:joaoestudosprofissionais@gmail.com">joaoestudosprofissionais@gmail.com</a></li>
-                <li><a href="tel:+557199292660">71 9 9292-6660</a></li>
-                <li><a href="https://wa.me/5571982618338" target="_blank">WhatsApp</a></li>
-                <li><a href="https://www.linkedin.com/in/joão-guilherme-lima-silva-dias-801715313/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/jg.diass/" target="_blank">Instagram</a></li>
-            </ul>
-
-            </div>
-        </section>
-
-        <footer>
-            <p class="copy">&copy;2025 João Guilherme Lima Silva Dias. Todos os direitos reservados</p>
-        </footer>
+    <header>
+        <div class="header-container">
+            <h1 id="typed-text" data-text="Olá, eu sou João Guilherme, desenvolvedor Front-End!"></h1>
+            <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+        </div>
 
         <nav>
-            <button class="botao" onclick="window.location.href='sobre.html'">Sobre</button>
-            <button class="botao" onclick="window.location.href='competencias.html'">Competências</button>
-            <button class="botao" onclick="window.location.href='projetos.html'">Projetos</button>
+            <a class="botao" href="index.html">Home</a>
+            <a class="botao" href="sobre.html">Sobre</a>
+            <a class="botao" href="competencias.html">Competências</a>
+            <a class="botao" href="projetos.html">Projetos</a>
+            <a class="botao" href="feedback.html">Feedback</a>
         </nav>
-    </div>
+
+        <button id="theme-toggle">Modo Claro</button>
+    </header>
+
+    <main>
+        <!-- Introdução ao Portfólio -->
+        <section class="intro-section section-card">
+            <h2>Bem-vindo ao meu portfólio!</h2>
+            <p>Aqui você poderá conhecer meus projetos, habilidades e deixar seu feedback.</p>
+        </section>
+
+        <!-- Seção Sobre / Fotos -->
+        <section class="sobre-section section-card">
+            <!-- Breve apresentação -->
+            <p class="apresentacao-breve">
+                Olá! Sou João Guilherme, tenho 21 anos e sou estudante de Análise e Desenvolvimento de Sistemas. 
+                Apaixonado por Front-End, estou em constante aprendizado e busco crescer na área de tecnologia.
+            </p>
+
+            <!-- Fotos -->
+            <div class="fotos-container">
+                <img src="img/jg2jjjjjj.jpeg" alt="João Guilherme" class="foto-perfil">
+                <img src="img/jg1 (2).jpeg" alt="João Guilherme" class="foto-perfil">
+                <img src="img/WhatsApp Image 2025-05-28 at 11.52.20.jpeg" alt="João Guilherme" class="foto-perfil">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 João Guilherme Lima Silva Dias. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
+</html>
